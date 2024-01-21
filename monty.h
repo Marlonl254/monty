@@ -8,10 +8,10 @@
 #include <string.h>
 #include <ctype.h>
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - doubly linked list representation of stack
  * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
+ * @prev: aim to the previous element of stack
+ * @next: aim to the next element of stack
  *
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
@@ -41,9 +41,9 @@ extern bus_t bus;
 /**
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
- * @f: function to handle the opcode
+ * @f: function handling opcode
  *
- * Description: opcode and its function
+ * Description: opcode with its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
